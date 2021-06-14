@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": ""
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"rafapaulin.try-material-icon-theme",
+			"github.github-vscode-theme",
+			"formulahendry.code-runner",
+			"divyanshuagrawal.competitive-programming-helper"
+		]
+	},
+	"settings": {
+		"cph.general.defaultLanguage": "cpp",
+		"code-runner.executorMap": {
+			"c": "cd $dir && gcc $fileName -o a.out && ./a.out",
+			// "c": "cd $dir && gcc $fileName -o a.out && ./a.out<input.txt>output.txt",
+			"cpp": "cd $dir && g++ -std=c++17 $fileName -o a.out && ./a.out",
+			// "cpp": "cd $dir && g++ -std=c++17 $fileName -o a.out && ./a.out<input.txt>output.txt",
+			"python": "python3 -u",
+			"shellscript": "bash"
+		},
+		"terminal.integrated.fontFamily": "FiraMono Nerd Font",
+		"cph.language.cpp.SubmissionCompiler": "GNU G++17 9.2.0 (64 bit, msys 2)",
+		"code-runner.runInTerminal": true
+	}
+}
