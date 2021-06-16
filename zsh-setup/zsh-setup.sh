@@ -17,6 +17,6 @@ git clone https://github.com/romkatv/powerlevel10k.git /home/$USER/.oh-my-zsh/cu
 git clone https://github.com/zsh-users/zsh-autosuggestions.git /home/$USER/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /home/$USER/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
-curl -fLo ~/.zshrc https://raw.githubusercontent.com/shihabmahamud/computer-setup/main/.zshrc
-curl -fLo ~/.p10k.zsh https://raw.githubusercontent.com/shihabmahamud/computer-setup/main/.p10k.zsh
+curl -fLo ~/.zshrc https://raw.githubusercontent.com/shihab4t/EnvSetup/main/zsh-setup/.zshrc
+curl -fLo ~/.p10k.zsh https://raw.githubusercontent.com/shihab4t/EnvSetup/main/zsh-setup/.p10k.zsh
 chsh -s /bin/zsh

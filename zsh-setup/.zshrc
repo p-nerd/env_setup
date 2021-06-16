@@ -115,8 +115,18 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cpa="bash cpa"
 
 # Git Things
-alias git-all="git add . && git commit && git push"
-alias git-commit="git add . && git commit -m"
+# alias git-all="git add . && git commit && git push"
+# alias git-commit="git add . && git commit -m"
+function git-all {
+  git add .
+  if [ "$1" != "" ]
+  then
+      git commit -m "$1"
+  else
+      git commit -m update
+  fi
+  git push
+}
 
 # # Python Things
 # alias python="python3"

@@ -5,10 +5,7 @@ Computer Environment Setup for Programming
 * [`termdown`](https://github.com/trehn/termdown) | `$ pip install termdown`
 * [`yakuake`](https://apps.kde.org/en/yakuake) | `$ sudo apt install yakuake`
 * [`kazam`](https://launchpad.net/kazam) | `$ sudo apt install kazam`
-* [`speedtest-cli`](https://github.com/sivel/speedtest-cli) | `$ sudo apt install speedtest-cli`
-* [`tmux`](https://github.com/tmux/tmux/wiki) | `$ sudo apt install tmux`
 * [`htop`](https://htop.dev) | `$ sudo apt install htop`
-* [`ncdu`](https://dev.yorhel.nl/ncdu) | `$ sudo apt install ncdu`
 
 <!--
 # Linux Computer Setup
