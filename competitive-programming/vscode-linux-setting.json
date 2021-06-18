@@ -21,7 +21,8 @@
 			"cpp": "cd $dir && g++ -std=c++17 $fileName -o a.out && ./a.out",
 			// "cpp": "cd $dir && g++ -std=c++17 $fileName -o a.out && ./a.out<input.txt>output.txt",
 			"python": "python3 -u",
-			"shellscript": "bash"
+			"shellscript": "bash",
+			"rust": "cd $dir && rustc $fileName -o r.out && ./r.out"
 		},
 		"terminal.integrated.fontFamily": "FiraMono Nerd Font",
 		"cph.language.cpp.SubmissionCompiler": "GNU G++17 9.2.0 (64 bit, msys 2)",
