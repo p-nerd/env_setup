@@ -17,3 +17,4 @@
     * [`Code Runner by Jun Han`](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 * Browser Extension:
     * [`Competitive Companion by jmerle`](https://github.com/jmerle/competitive-companion)
+    * [`cph-submit`](https://github.com/agrawal-d/cph-submit)
