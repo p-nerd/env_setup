@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # To install hugo spacific version you write this command in terminal
-# $ ./install-hugo-deb-package.sh <version_name>
+# $ bash hugo-deb.sh <version_name>
 # like that
-# $ ./install-hugo-deb-package.sh 0.82.1 from github
-# $ ./install-hugo-deb-package.sh snap from snap
+# $ bash hugo-deb.sh 0.84.4 	from github
+# $ bash hugo-deb.sh snap 	from snap
 
 if [[ $1 == snap ]]
 then
