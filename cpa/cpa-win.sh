@@ -29,6 +29,12 @@ then
     echo "Updating the $HOME/.cpa/template.cpp into $2"
     cp $2 $HOME/.cpa/template.cpp
     echo "Done!"
+
+elif [[ $1 == ac ]]
+then
+    current_date=$(date '+%r (%Z)')
+    echo "// Accepted: $current_date" >> $2
+
 # Create C/C++ File with Contests Boilerplate Code `$ cpa <filename.cpp>`
 else # worked
     echo "Creating the $1 file... Done."
