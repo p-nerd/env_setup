@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [[ $1 == status ]]
 then
     if [[ $4 == firefox ]]
