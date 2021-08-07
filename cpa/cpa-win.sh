@@ -34,6 +34,7 @@ elif [[ $1 == ac ]]
 then
     current_date=$(date '+%r (%Z)')
     echo "// Accepted: $current_date" >> $2
+    code $2
 
 # Create C/C++ File with Contests Boilerplate Code `$ cpa <filename.cpp>`
 else # worked
