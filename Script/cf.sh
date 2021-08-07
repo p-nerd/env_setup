@@ -1,23 +1,17 @@
-elif [[ $1 == cf ]]
+if [[ $1 == status ]]
 then
-    if [[ $2 == status ]]
+    if [[ $4 == firefox ]]
     then
-        if [[ $5 == firefox ]]
-        then
-            firefox https://codeforces.com/problemset/status/$4/problem/$3\?friends\=on &
-        else
-            google-chrome https://codeforces.com/problemset/status/$4/problem/$3\?friends\=on &
-        fi
+        firefox https://codeforces.com/problemset/status/$3/problem/$2\?friends\=on &
+    else
+        google-chrome https://codeforces.com/problemset/status/$3/problem/$2\?friends\=on &
     fi
-
-elif [[ $1 == gh ]]
+elif [[ $1 == open ]]
 then
-    if [[ $2 == open ]]
+    if [[ $3 == firefox ]]
     then
-        if [[ $4 == firefox ]]
-        then
-            firefox https://github.com/shihab4t/$3 &
-        else
-            google-chrome https://github.com/shihab4t/$3 &
-        fi
+        firefox https://github.com/shihab4t/$2 &
+    else
+        google-chrome https://github.com/shihab4t/$2 &
     fi
+fi
