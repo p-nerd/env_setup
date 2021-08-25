@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "f10",
+        "command": "cph.runTestCases"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "-cph.runTestCases"
+    }
+]
