@@ -28,11 +28,11 @@ echo
 echo "Step 05: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /home/$USER/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /home/$USER/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 echo
-echo "Step 06: curl -fLo ~/.zshrc https://raw.githubusercontent.com/shihab4t/EnvSetup/main/zsh-setup/.zshrc"
-curl -fLo ~/.zshrc https://raw.githubusercontent.com/shihab4t/EnvSetup/main/zsh-setup/.zshrc
+echo "Step 06: curl -fLo ~/.zshrc https://raw.githubusercontent.com/shihab4t/EnvSetup/main/Zsh/.zshrc"
+curl -fLo ~/.zshrc https://raw.githubusercontent.com/shihab4t/EnvSetup/main/Zsh/.zshrc
 echo
-echo "Step 07: curl -fLo ~/.p10k.zsh https://raw.githubusercontent.com/shihab4t/EnvSetup/main/zsh-setup/.p10k.zsh"
-curl -fLo ~/.p10k.zsh https://raw.githubusercontent.com/shihab4t/EnvSetup/main/zsh-setup/.p10k.zsh
+echo "Step 07: curl -fLo ~/.p10k.zsh https://raw.githubusercontent.com/shihab4t/EnvSetup/main/Zsh/.p10k.zsh"
+curl -fLo ~/.p10k.zsh https://raw.githubusercontent.com/shihab4t/EnvSetup/main/Zsh/.p10k.zsh
 echo
 echo "Step 08: chsh -s /bin/zsh"
 chsh -s /bin/zsh
