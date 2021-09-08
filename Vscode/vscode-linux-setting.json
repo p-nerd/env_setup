@@ -1,6 +1,5 @@
 {
 	"code-runner.executorMap": {
-	
 		"javascript": "node",
 		"java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
 		"c": "cd $dir && gcc $fileName && ./a.out",
@@ -57,7 +56,7 @@
 	"cph.general.defaultLanguage": "cpp",
 	"code-runner.runInTerminal": true,
 	"terminal.integrated.fontFamily": "FiraMono Nerd Font",
-		"editor.fontFamily": "JetBrains Mono",
-		"editor.fontSize": 15,
-		"editor.fontLigatures": true
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontSize": 15,
+	"editor.fontLigatures": true
 }
