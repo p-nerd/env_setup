@@ -1,9 +1,10 @@
 #! /bin/bash
 
-if [[ $1 == --help ]]
+if [[ $1 == --help || $BASH_ARGC == 0 ]]
 then
 echo """
     Commend     Sub-Commend     Argument
+    -------     -----------     -------------------------------------------
     java        extract-jdk     \"downloaded jdk name\" \"wanted jdk name\"
                 env-setup       \"jdk name\"
                 show
@@ -58,5 +59,4 @@ then
         echo "$ sudo rm -vrf /usr/lib/jvm/$1"
         sudo rm -vrf /usr/lib/jvm/$1
     fi
-
 fi
