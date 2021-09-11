@@ -1,15 +1,19 @@
 #! /bin/bash
 
-if [[ $1 == --help || $BASH_ARGC == 0 ]]
-then
-echo """
+help_comment() {
+    echo """
     Commend     Sub-Commend     Argument
     -------     -----------     -------------------------------------------
     java        extract-jdk     \"downloaded jdk name\" \"wanted jdk name\"
                 env-setup       \"jdk name\"
                 show
-                remove-jdk
-"""
+                remove-jdk      \"jdk name
+        """
+}
+
+if [[ $1 == --help || $BASH_ARGC == 0 ]]
+then
+    help_comment
 elif [[ $1 == java ]]
 then
     if [[ $2 == show ]]
@@ -50,13 +54,18 @@ then
             echo
         fi
         echo "$ sudo ln -vs /usr/lib/jvm/$3/bin/java /usr/bin/java"
-        sudo ln -vs /usr/lib/jvm/$1/bin/java /usr/bin/java
+        sudo ln -vs /usr/lib/jvm/$3/bin/java /usr/bin/java
         echo
         echo "$ sudo ln -vs /usr/lib/jvm/$3/bin/javac /usr/bin/javac"
-        sudo ln -vs /usr/lib/jvm/$1/bin/javac /usr/bin/javac
+        sudo ln -vs /usr/lib/jvm/$3/bin/javac /usr/bin/javac
     elif [[ $2 == remove-jdk ]]
     then
-        echo "$ sudo rm -vrf /usr/lib/jvm/$1"
-        sudo rm -vrf /usr/lib/jvm/$1
+        echo "$ sudo rm -vrf /usr/lib/jvm/$3"
+        sudo rm -vrf /usr/lib/jvm/$3
+
+    else 
+        help_comment
     fi
+else 
+    help_comment
 fi
