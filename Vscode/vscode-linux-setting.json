@@ -1,12 +1,13 @@
 {
 	"code-runner.executorMap": {
+
 		"javascript": "node",
 		"java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
 		"c": "cd $dir && gcc $fileName && ./a.out",
 		"cpp": "cd $dir && g++ $fileName && ./a.out",
 		"objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
 		"php": "php",
-		"python3": "python -u",
+		"python": "python3 -u",
 		"perl": "perl",
 		"perl6": "perl6",
 		"ruby": "ruby",
@@ -56,7 +57,19 @@
 	"cph.general.defaultLanguage": "cpp",
 	"code-runner.runInTerminal": true,
 	"terminal.integrated.fontFamily": "FiraMono Nerd Font",
-	"editor.fontFamily": "JetBrains Mono",
-	"editor.fontSize": 15,
-	"editor.fontLigatures": true
+	"editor.fontFamily": "\"IBMPlexMono\", \"iA Writer Mono S\", \"JetBrains Mono\", \"Dank Mono\", \"Fira Code\", monospace",
+	"editor.fontSize": 16,
+	"editor.fontLigatures": false,
+	"files.autoSave": "afterDelay",
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"extensions.ignoreRecommendations": true,
+	"editor.minimap.enabled": false,
+	"explorer.confirmDragAndDrop": false
 }
