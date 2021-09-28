@@ -1,22 +1,24 @@
-#!/bin/bash
+#! /bin/bash
 
-# sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/$1/bin/javac 1
-# sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/$1/bin/java 1
+echo "Java Version"
+javac --version
+jshell --version
+java --version
 
+echo
 if [[ -f /usr/bin/java ]] 
 then
-    echo "$ sudo rm -v /usr/bin/java"
-    sudo rm -v /usr/bin/java
-    echo
+    sudo rm -vrf /usr/bin/java
 fi
 if [[ -f /usr/bin/javac ]]
 then
-    echo "$ sudo rm -v /usr/bin/javac"
-    sudo rm -v /usr/bin/javac
-    echo
+    sudo rm -vrf /usr/bin/javac
 fi
-echo "$ sudo ln -vs /usr/lib/jvm/$1/bin/java /usr/bin/java"
+if [[ -f /usr/bin/jshell ]]
+then 
+    sudo rm -vrf /usr/bin/jshell
+fi
+
 sudo ln -vs /usr/lib/jvm/$1/bin/java /usr/bin/java
-echo
-echo "$ sudo ln -vs /usr/lib/jvm/$1/bin/javac /usr/bin/javac"
 sudo ln -vs /usr/lib/jvm/$1/bin/javac /usr/bin/javac
+sudo ln -vs /usr/lib/jvm/$1/bin/jshell /usr/bin/jshell
