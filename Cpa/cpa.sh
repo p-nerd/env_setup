@@ -46,5 +46,5 @@ else
     echo "// $current_date" >> $file_name
     # echo "// Problem Link: $3" >> $2
     echo "Done! let's play"
-    code $1
+    code $file_name
 fi
