@@ -10,10 +10,8 @@ then
     echo
     echo "Available Commands:"
     echo "  <file_name>               Create file with template"
-    echo "  file <file_name>          Create file with file-template"
     echo "  update <template_name>    update template"
     echo "  run <file_name>           Run C/C++ code"
-    echo "  cf                        CodeForces Commands"
     echo "  help                      For help"
 
 # Run C/C++ Code with One Command `$ cpa run <code.cpp>`
@@ -38,6 +36,7 @@ then
 
 # Create C/C++ File with Contests Boilerplate Code `$ cpa <filename.cpp>`
 else
+    $1 = ${$1// /-}
     echo "Creating the $1 file... Done."
     cp ~/.cpa/template.cpp $1
     current_date=$(date '+%A, %B %d, %Y | %r (%Z)')
