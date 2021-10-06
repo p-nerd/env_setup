@@ -39,6 +39,7 @@ else
     file_name=$1
     # echo $file_name
     file_name=${file_name// /-}
+    file_name=${file_name//.-/.}
     # echo $file_name
     echo "Creating the $file_name file... Done."
     cp ~/.cpa/template.cpp $file_name
