@@ -36,11 +36,14 @@ then
 
 # Create C/C++ File with Contests Boilerplate Code `$ cpa <filename.cpp>`
 else
-    $1 = ${$1// /-}
-    echo "Creating the $1 file... Done."
-    cp ~/.cpa/template.cpp $1
+    file_name=$1
+    # echo $file_name
+    file_name=${file_name// /-}
+    # echo $file_name
+    echo "Creating the $file_name file... Done."
+    cp ~/.cpa/template.cpp $file_name
     current_date=$(date '+%A, %B %d, %Y | %r (%Z)')
-    echo "// $current_date" >> $1
+    echo "// $current_date" >> $file_name
     # echo "// Problem Link: $3" >> $2
     echo "Done! let's play"
     code $1
