@@ -1,18 +1,18 @@
-# Env-Setup
+# EnvSetup
 Computer Environment Setup for Programming
 
-## Utilities tool list
+## Utilities Tools
 * [`termdown`](https://github.com/trehn/termdown) | `$ pip install termdown`
 * [`yakuake`](https://apps.kde.org/en/yakuake) | `$ sudo apt install yakuake`
 * [`kazam`](https://launchpad.net/kazam) | `$ sudo apt install kazam`
 * [`htop`](https://htop.dev) | `$ sudo apt install htop`
 
-## Needed Tools
-* Typing
-    * `English(US)`
-    * [`Bangla(Probhat)`](https://drive.google.com/drive/folders/1uaY4NiGZ9xwUigPpEal-igI7DicmfP7p?usp=sharing)
-* Programming Languagre
-    * `C/C++` Compiler: `GNU GCC`
+## Typing Layouts
+* `English(US)`
+* [`Bangla(Probhat)`](https://drive.google.com/drive/folders/1uaY4NiGZ9xwUigPpEal-igI7DicmfP7p?usp=sharing)
+
+## Needed Tools for Competitive Programming
+* `C/C++` Compiler: `GNU GCC`
 * Text Editor: 
     * `Visual Studio Code`
     * `Vim`
