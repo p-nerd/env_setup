@@ -12,7 +12,8 @@ Computer Environment Setup for Programming
 * [`Bangla(Probhat)`](https://drive.google.com/drive/folders/1uaY4NiGZ9xwUigPpEal-igI7DicmfP7p?usp=sharing)
 
 ## Needed Tools for Competitive Programming
-* `C/C++` Compiler: `GNU GCC`
+* C/C++ Compiler: 
+   * `GNU GCC`
 * Text Editor: 
     * `Visual Studio Code`
     * `Vim`
