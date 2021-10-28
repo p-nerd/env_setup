@@ -123,7 +123,7 @@ function git-all {
   then
       git commit -m "$1"
   else
-      git commit -m update
+      git commit -m Updates
   fi
   git push
 }
