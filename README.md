@@ -4,6 +4,7 @@ Computer Environment Setup for Programming
 ## Env for Competitive Programming
 * Ubuntu based OS: Kde Neon
 * [`yakuake`](https://apps.kde.org/en/yakuake) | `$ sudo apt install yakuake`
+* `termdown` | `$ pip3 install termdown`
 * C/C++ Compiler: `GNU GCC`
 * Text Editor: `Visual Studio Code`, `Vim`
 * Visual Studio Code Extension: [`C/C++`](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), [`Competitive Programming Helper (cph)`](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper), [`GitHub Theme`](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme), [`Try's Icon Pack`](https://marketplace.visualstudio.com/items?itemName=rafapaulin.try-material-icon-theme), [`Code Runner`](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
