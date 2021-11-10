@@ -106,17 +106,13 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-
 # aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
+alias rf="rm -rf"
+alias termdown="python3 -m termdown"
+alias la="ls -la"
 
-# CP-A Tools
-alias cpa="bash cpa"
-
-# Git Things
-# alias git-all="git add . && git commit && git push"
-# alias git-commit="git add . && git commit -m"
 function git-all {
   git add .
   if [ "$1" != "" ]
@@ -128,16 +124,9 @@ function git-all {
   git push
 }
 
-# # Python Things
-# alias python="python3"
-# alias pyvenv="python3 -m venv"
-# alias activate="source .venv/bin/activate"
-
-# Others
-#alias rf="rm -rf"
-alias termdown="python3 -m termdown"
-# alias manage.sh="bash manage.sh"
-
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
