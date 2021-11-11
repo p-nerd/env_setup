@@ -1,6 +1,5 @@
 {
 	"code-runner.executorMap": {
-
 		"javascript": "node",
 		"java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
 		"c": "cd $dir && gcc $fileName && time ./a.out",
@@ -74,6 +73,5 @@
 	"C_Cpp.updateChannel": "Insiders",
 	"git.autofetch": true,
 	"editor.renderWhitespace": "all",
-	"files.autoSave": "afterDelay",
-	"cph.general.defaultLanguageTemplateFileLocation": "/home/shihab/.smt/template.cpp"
+	"files.autoSave": "afterDelay"
 }
