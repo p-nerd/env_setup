@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/bin/zsh
 
 # To install hugo spacific version you write this command in terminal
 # $ bash hugo-deb.sh <version_name>
 # like that
-# $ bash hugo-deb.sh 0.84.4 	from github
-# $ bash hugo-deb.sh snap 	from snap
+# $ bash hugo-deb.sh 0.84.4     from github
+# $ bash hugo-deb.sh snap       from snap
 
 if [[ $1 == snap ]]
 then
@@ -15,5 +15,5 @@ else
     sudo dpkg -i hugo_*_Linux-64bit.deb
     wget https://github.com/gohugoio/hugo/releases/download/v$1/hugo_extended_$1_Linux-64bit.deb
     sudo dpkg -i hugo_extended_*_Linux-64bit.deb
-    sudo apt --fix-broken install
+    sudo apt install -f -y
 fi

@@ -1,7 +1,7 @@
-#! /bin/bash
+#!/bin/zsh
 
 sudo apt update
-sudo apt install python3 python3-pip gcc g++ -y
+sudo apt install gcc g++ -y
 code --install-extension GitHub.github-vscode-theme
 code --install-extension PKief.material-icon-theme
 code --install-extension formulahendry.code-runner

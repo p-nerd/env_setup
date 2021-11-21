@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
 
 sudo apt update
-sudo apt install zsh git curl wget
+sudo apt install zsh git curl wget -y
 
 # Installing Fira Mono Font
 # if [[ ! -d /usr/local/share/fonts ]]
