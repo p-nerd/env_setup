@@ -1,13 +1,7 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    // Add custom actions and keybindings to this array.
-    // To unbind a key combination from your defaults.json, set the command to "unbound".
-    // To learn more about actions and keybindings, visit https://aka.ms/terminal-keybindings
     "actions": 
     [
-        // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
-        // These two lines additionally bind them to Ctrl+C and Ctrl+V.
-        // To learn more about selection, visit https://aka.ms/terminal-selection
         {
             "command": 
             {
@@ -20,15 +14,10 @@
             "command": "paste",
             "keys": "ctrl+v"
         },
-        // Press Ctrl+Shift+F to open the search box
         {
             "command": "find",
             "keys": "ctrl+shift+f"
         },
-        // Press Alt+Shift+D to open a new pane.
-        // - "split": "auto" makes this pane open in the direction that provides the most surface area.
-        // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
-        // To learn more about panes, visit https://aka.ms/terminal-panes
         {
             "command": 
             {
@@ -55,8 +44,11 @@
                 "commandline": "powershell.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
-                "fontFace": "Consolas",
-                "fontSize": 10,
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 10
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "historySize": 9001,
@@ -66,15 +58,17 @@
                 "startingDirectory": "%USERPROFILE%",
                 "useAcrylic": true
             },
-            
             {
                 "acrylicOpacity": 0.75,
                 "closeOnExit": "graceful",
                 "commandline": "cmd.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
-                "fontFace": "Consolas",
-                "fontSize": 10,
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 10
+                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "historySize": 9001,
@@ -85,29 +79,38 @@
                 "useAcrylic": true
             },
             {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
                 "acrylicOpacity": 0.75,
                 "closeOnExit": "graceful",
-                "commandline": "bash.exe",
+                "commandline": "C:\\Program Files\\Git\\bin\\git-bash.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
-                "fontFace": "Consolas",
-                "fontSize": 10,
-                "guid": "{00000000-0000-0000-ba54-000000000002}",
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 10
+                },
+                "guid": "{dce724e8-613e-4a11-bd73-92cda1b0aea6}",
                 "hidden": false,
                 "historySize": 9001,
                 "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
-                "name": "Bash",
+                "name": "Git Bash",
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
+                "tabTitle": "Git Bash",
                 "useAcrylic": true
-            },
-            {
-                "cursorShape": "filledBox",
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": true,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
             }
         ]
     },
