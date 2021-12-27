@@ -3,8 +3,8 @@
 
 		"javascript": "node",
 		"java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-		"c": "cd $dir && gcc $fileName && time ./a.out",
-		"cpp": "cd $dir && g++ $fileName && time ./a.out",
+		"c": "cd $dir && gcc $fileName && ./a.exe",
+		"cpp": "cd $dir && g++ $fileName && ./a.exe",
 		"objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
 		"php": "php",
 		"python": "python -u",
@@ -74,6 +74,5 @@
 	"C_Cpp.updateChannel": "Insiders",
 	"git.autofetch": true,
 	"editor.renderWhitespace": "all",
-	"files.autoSave": "afterDelay",
-	"cph.general.defaultLanguageTemplateFileLocation": "/home/shihab/.smt/template.cpp"
+	"files.autoSave": "afterDelay"
 }

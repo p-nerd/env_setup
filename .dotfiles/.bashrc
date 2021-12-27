@@ -1,4 +1,4 @@
-alias cpa=~/.bin/cpa.sh
+alias smt=~/.bin/smt.sh
 
 function git-all {
   git add .
