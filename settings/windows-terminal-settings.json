@@ -1,10 +1,8 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -19,8 +17,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -33,19 +30,16 @@
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "initialCols": 125,
     "initialRows": 30,
-    "profiles": 
-    {
+    "profiles": {
         "defaults": {},
-        "list": 
-        [
+        "list": [
             {
                 "acrylicOpacity": 0.75,
                 "closeOnExit": "graceful",
                 "commandline": "powershell.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
-                "font": 
-                {
+                "font": {
                     "face": "Consolas",
                     "size": 10
                 },
@@ -64,8 +58,7 @@
                 "commandline": "cmd.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
-                "font": 
-                {
+                "font": {
                     "face": "Consolas",
                     "size": 10
                 },
@@ -96,8 +89,7 @@
                 "commandline": "C:\\Program Files\\Git\\bin\\git-bash.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
-                "font": 
-                {
+                "font": {
                     "face": "Consolas",
                     "size": 10
                 },
@@ -114,8 +106,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
