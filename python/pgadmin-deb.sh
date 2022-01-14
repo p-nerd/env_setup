@@ -12,15 +12,15 @@ sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_
 # Install pgAdmin
 #
 
-# Install for both desktop and web modes:
-sudo apt install pgadmin4
+# # Install for both desktop and web modes:
+# sudo apt install pgadmin4
 
 # Install for desktop mode only:
-sudo apt install pgadmin4-desktop
+sudo apt install pgadmin4-desktop -y
 
-# Install for web mode only: 
-sudo apt install pgadmin4-web 
+# # Install for web mode only: 
+# sudo apt install pgadmin4-web 
 
-# Configure the webserver, if you installed pgadmin4-web:
-sudo /usr/pgadmin4/bin/setup-web.sh
+# # Configure the webserver, if you installed pgadmin4-web:
+# sudo /usr/pgadmin4/bin/setup-web.sh
 
