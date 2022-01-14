@@ -9,5 +9,12 @@
         "python": "python3 -u",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt"
     },
-    "cph.general.defaultLanguage": "cpp"
+    "workbench.startupEditor": "none",
+    "cph.general.defaultLanguage": "cpp",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "editor.inlayHints.fontSize": 6,
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true
 }
