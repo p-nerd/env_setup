@@ -8,5 +8,6 @@
         "cpp": "cd $dir && g++ $fileName && time ./a.out",
         "python": "python3 -u",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt"
-    }
+    },
+    "cph.general.defaultLanguage": "cpp"
 }
