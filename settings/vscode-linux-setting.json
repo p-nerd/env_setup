@@ -16,5 +16,6 @@
     "editor.inlayHints.fontSize": 6,
     "git.autofetch": true,
     "editor.minimap.enabled": false,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "python.terminal.activateEnvironment": false
 }
