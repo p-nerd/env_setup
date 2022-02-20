@@ -37,6 +37,13 @@ Computer Environment Setup for Programming
     Then reboot the system
 
 
+## PostgreSQL installation
+```
+sudo apt-get install libpq5=12.9-0ubuntu0.20.04.1 && sudo apt-get install libpq-dev
+```
+
+<!--
+
 ## Pacman Package Manager quick help
 * Quick Commands -
     ```zsh
