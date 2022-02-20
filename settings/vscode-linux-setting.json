@@ -1,6 +1,6 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "GitHub Dark",
+    "workbench.colorTheme": "Dracula",
     "editor.cursorStyle": "block",
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {

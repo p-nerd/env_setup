@@ -1,4 +1,5 @@
-code --install-extension GitHub.github-vscode-theme
+# code --install-extension GitHub.github-vscode-theme
+code --install-extension dracula-theme.theme-dracula
 code --install-extension PKief.material-icon-theme
 code --install-extension formulahendry.code-runner
 code --install-extension DivyanshuAgrawal.competitive-programming-helper
