@@ -1,4 +1,4 @@
-alias smt=~/.bin/smt.sh
+alias cpro=~/.bin/cpro-win.sh
 
 function git-all {
   git add .
