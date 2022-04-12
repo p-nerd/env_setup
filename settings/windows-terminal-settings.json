@@ -86,7 +86,7 @@
             {
                 "acrylicOpacity": 0.75,
                 "closeOnExit": "graceful",
-                "commandline": "C:\\Program Files\\Git\\bin\\git-bash.exe",
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
                 "font": {
