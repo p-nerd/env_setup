@@ -1,7 +1,5 @@
-export DENO_INSTALL="/home/shihab4t/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
 # export PATH="$PATH:`yarn global bin`"
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+# export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 
 # Initialization code that may require console input (password prompts, [y/n]
@@ -122,9 +120,9 @@ alias hs=runghc
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # pyenv setup
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv virtualenv-init -)"
+# export PATH="$HOME/.pyenv/bin:$PATH"
+# eval "$(pyenv init --path)"
+# eval "$(pyenv virtualenv-init -)"
 
 
 function git-all {
@@ -139,10 +137,15 @@ function git-all {
 }
 
 
-[ -s "/home/shihab4t/.jabba/jabba.sh" ] && source "/home/shihab4t/.jabba/jabba.sh"
+# [ -s "/home/shihab4t/.jabba/jabba.sh" ] && source "/home/shihab4t/.jabba/jabba.sh"
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+# export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
+# NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Deno
+export DENO_INSTALL="$HOME/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
