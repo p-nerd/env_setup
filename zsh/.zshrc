@@ -1,6 +1,7 @@
 export DENO_INSTALL="/home/shihab4t/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
-export PATH="$PATH:`yarn global bin`"
+# export PATH="$PATH:`yarn global bin`"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 
 # Initialization code that may require console input (password prompts, [y/n]
@@ -139,3 +140,9 @@ function git-all {
 
 
 [ -s "/home/shihab4t/.jabba/jabba.sh" ] && source "/home/shihab4t/.jabba/jabba.sh"
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
