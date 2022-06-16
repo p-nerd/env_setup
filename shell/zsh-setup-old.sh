@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 sudo apt update
 sudo apt install zsh git curl wget -y
