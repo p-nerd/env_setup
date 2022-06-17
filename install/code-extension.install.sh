@@ -4,8 +4,8 @@ code --install-extension formulahendry.code-runner
 code --install-extension DivyanshuAgrawal.competitive-programming-helper
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension ms-vscode.cpptools
-code --install-extension golang.Go
-code --install-extension ms-python.python
+# code --install-extension golang.Go
+# code --install-extension ms-python.python
 # code --install-extension esbenp.prettier-vscode
 # code --install-extension mtxr.sqltools
 # code --install-extension mtxr.sqltools-driver-sqlite
