@@ -1,103 +1,84 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
-        {
-            "command": {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        }
-    ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{dce724e8-613e-4a11-bd73-92cda1b0aea6}",
     "initialCols": 125,
     "initialRows": 30,
-    "profiles": {
+    "profiles": 
+    {
         "defaults": {},
-        "list": [
+        "list": 
+        [
             {
-                "acrylicOpacity": 0.75,
                 "closeOnExit": "graceful",
-                "commandline": "powershell.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
-                "font": {
+                "font": 
+                {
                     "face": "Consolas",
-                    "size": 10
+                    "size": 12
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "historySize": 9001,
                 "name": "Windows PowerShell",
+                "opacity": 75,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
                 "useAcrylic": true
             },
             {
-                "acrylicOpacity": 0.75,
                 "closeOnExit": "graceful",
-                "commandline": "cmd.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
-                "font": {
+                "font": 
+                {
                     "face": "Consolas",
-                    "size": 10
+                    "size": 12
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "historySize": 9001,
                 "name": "Command Prompt",
+                "opacity": 75,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
                 "useAcrylic": true
             },
             {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "bellStyle": "window",
+                "colorScheme": "Campbell",
+                "font": 
+                {
+                    "face": "FiraMono Nerd Font"
+                },
+                "guid": "{5a069d55-87bd-57cf-8a07-2726b203d3e5}",
                 "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
+                "name": "Ubuntu 20.04.4 LTS",
+                "opacity": 50,
+                "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc",
+                "useAcrylic": true
             },
             {
-                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
-                "hidden": false,
-                "name": "Debian",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "acrylicOpacity": 0.75,
                 "closeOnExit": "graceful",
                 "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
-                "font": {
+                "font": 
+                {
                     "face": "Consolas",
-                    "size": 10
+                    "size": 12
                 },
                 "guid": "{dce724e8-613e-4a11-bd73-92cda1b0aea6}",
                 "hidden": false,
                 "historySize": 9001,
                 "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
                 "name": "Git Bash",
+                "opacity": 75,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
@@ -106,7 +87,8 @@
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -290,6 +272,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-20.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
         },
         {
             "background": "#000000",
