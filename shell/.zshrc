@@ -131,7 +131,7 @@ function git-all {
 }
 
 
-# [ -s "/home/shihab4t/.jabba/jabba.sh" ] && source "/home/shihab4t/.jabba/jabba.sh"
+[ -s "/home/shihab4t/.jabba/jabba.sh" ] && source "/home/shihab4t/.jabba/jabba.sh"
 
 # export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
@@ -148,3 +148,5 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+[[ -s "/home/shihab4t/.gvm/scripts/gvm" ]] && source "/home/shihab4t/.gvm/scripts/gvm"
