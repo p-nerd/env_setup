@@ -149,4 +149,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-[[ -s "/home/shihab4t/.gvm/scripts/gvm" ]] && source "/home/shihab4t/.gvm/scripts/gvm"
+# [[ -s "/home/shihab4t/.gvm/scripts/gvm" ]] && source "/home/shihab4t/.gvm/scripts/gvm"
+
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin
+
+export PATH=/usr/local/gradle/bin:$PATH
+
