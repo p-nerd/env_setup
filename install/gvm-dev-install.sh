@@ -2,6 +2,5 @@ curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gv
 chmod +x script.deb
 zsh script.deb
 sudo apt install bison -y
-source /home/shihab4t/.gvm/scripts/gvm
-gvm install go1.18.3 -B
-gvm use go1.18.3 --default
+gvm install go1.19.1 -B
+gvm use go1.19.1 --default

@@ -3,7 +3,7 @@
 # To install hugo spacific version you write this command in terminal
 # $ bash hugo-deb.sh <version_name>
 # like that
-# $ bash hugo-deb.sh 0.84.4     from github
+# $ bash hugo-deb.sh 0.99.1     from github
 # $ bash hugo-deb.sh snap       from snap
 
 if [[ $1 == snap ]]
