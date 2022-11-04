@@ -139,6 +139,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+export PATH="$HOME/.yarn/bin:$PATH"
 
 # Python
 export PYENV_ROOT="$HOME/.pyenv"
@@ -146,12 +147,14 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # Java
-[ -s "/home/shihab4t/.jabba/jabba.sh" ] && source "/home/shihab4t/.jabba/jabba.sh"
+[ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME/.jabba/jabba.sh"
 export GRADLE_HOME=/opt/gradle/latest
 export PATH=${GRADLE_HOME}/bin:${PATH}
 
 # Go
-[[ -s "/home/shihab4t/.gvm/scripts/gvm" ]] && source "/home/shihab4t/.gvm/scripts/gvm"
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin
 export PATH=/usr/local/gradle/bin:$PATH
+
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
