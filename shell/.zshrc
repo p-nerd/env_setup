@@ -158,3 +158,7 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=/usr/local/gradle/bin:$PATH
 
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
+
+# Dotnet
+export PATH=$PATH:$HOME/.dotnet/tools
+
