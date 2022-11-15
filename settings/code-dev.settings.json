@@ -20,7 +20,10 @@
     "editor.fontSize": 19,
     "editor.fontLigatures": false,
     "security.workspace.trust.untrustedFiles": "open",
-    "cSpell.userWords": ["middlewares", "wirelessly"],
+    "cSpell.userWords": [
+        "middlewares",
+        "wirelessly"
+    ],
     "workbench.sideBar.location": "right",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -29,5 +32,6 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "prettier.arrowParens": "avoid"
+    "prettier.arrowParens": "avoid",
+    "cph.language.cpp.SubmissionCompiler": "GNU G++20 11.2.0 (64 bit, winlibs)"
 }
